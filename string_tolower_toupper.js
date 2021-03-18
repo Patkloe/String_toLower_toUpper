@@ -7,8 +7,8 @@ alert(res);
 function swapcase(s){
     var res;
     for(var i = 0 ; i < s.length; i++){
-        let min = s[i].toLowerCase();
-        let max = s[i].toUpperCase();
+        let min = s[i].toLowerCase();  // transforme en miniscule
+        let max = s[i].toUpperCase(); // transforme en majuscule
         if(s[i] === min)
            res = res + max;
         if(s[i] === max)
